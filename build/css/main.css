@@ -713,14 +713,16 @@ section:nth-of-type(2) .bar {
 }
 section:nth-of-type(2) .bar .tag {
     top: 0;
-    left: 0;
     position: absolute;
     background-color: #e53e17;
     color: #fff;
     height: 100%;
     width: 110px;
-    align-items: left;
     padding-left: 4%;
+}
+section:nth-of-type(2) .bar .flex {
+    align-items: initial !important;
+    text-align: left;
 }
 @media screen and (min-width: 600px){
     section:nth-of-type(2) .bar span {
