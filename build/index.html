@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
   <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
 
   <!-- HOSTED -->
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800'
+    rel='stylesheet' type='text/css'>
   <link href="fonts/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" />
 
   <!-- LOCAL -->
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/main1.css">
   <link rel="stylesheet" href="css/main2.css">
-  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
 
   <!-- HOSTED -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
@@ -27,309 +29,300 @@
   <script src="scripts/modal.js"></script>
 
 </head>
+
 <body>
-<div class="overflow-wrap">
+  <div class="overflow-wrap">
 
-<!-- HOME -->
-  <div class="modal-wrap flex">
-    <div class="mask"></div>
-    <div class="modal" id="modal">
-      <div class="carousel-wrap">
-      <div class="window">
-          <div id="carousel">
-          <div class="slide"></div>
-          <div class="slide"></div>
-          <div class="slide"></div>
+    <!-- HOME -->
+    <div class="modal-wrap flex">
+      <div class="mask"></div>
+      <div class="modal" id="modal">
+        <div class="carousel-wrap">
+          <div class="window">
+            <div id="carousel">
+              <div class="slide"></div>
+              <div class="slide"></div>
+              <div class="slide"></div>
+            </div>
+            <i class="mdi mdi-chevron-left" id="prev"></i>
+            <i class="mdi mdi-chevron-right" id="next"></i>
           </div>
-          <i class="mdi mdi-chevron-left" id="prev"></i>
-          <i class="mdi mdi-chevron-right" id="next"></i>
+
         </div>
-
-      </div>
-      <div class="info-box">
-        <div class="title"></div>
-        <div class="tag"></div>
-        <div class="detail"></div>
-        <a href="#" target="_blank"><div class="button"><i class="mdi mdi-open-in-new"></i>VIEW SITE</div></a>
-      </div>
-      <i class="close mdi mdi-close"></i>
-    </div>
-  </div>
-
-  <section id="home" class="flex height-fix">
-    <canvas id="world"></canvas>
-    <div class="flex">
-
-      <div class="text">
-        Hello, I'm <span class="highlight">Ravi Valluri</span>.
-        <br>
-        I'm a full-stack web developer.
-      </div>
-
-      <div class="button page-link" dest="about">View my work <i class="mdi mdi-arrow-right"></i></div>
-
-      <nav class="flex">
-        <div class="link-wrap">
-          <div class="active page-link" dest="home">home</div>
-          <div class="page-link" dest="about">about</div>
-          <div class="page-link" dest="portfolio">projects</div>
-         <!-- <div class="page-link" dest="blog">blog</div> -->
-          <div class="page-link" dest="contact">contact</div>
-          <a class="resume page-link" href="/pdf/Ravi_Valluri_Resume.pdf" target="_blank">resume</a>
+        <div class="info-box">
+          <div class="title"></div>
+          <div class="tag"></div>
+          <div class="detail"></div>
+          <a href="#" target="_blank">
+            <div class="button"><i class="mdi mdi-open-in-new"></i>VIEW SITE</div>
+          </a>
         </div>
-        <i class="mdi mdi-menu"></i>
-      </nav>
+        <i class="close mdi mdi-close"></i>
+      </div>
     </div>
 
-  </section>
+    <section id="home" class="flex height-fix">
+      <canvas id="world"></canvas>
+      <div class="flex">
 
-<!-- ABOUT -->
-  <section id="about">
-    <div class="container flex">
-
-      <div class="header waypoint" data-animation="slide-in-left">ABOUT</div>
-      <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
-
-      <div class="flex row label-wrap">
-        <div class="flex row-gt-sm">
-        <div class="flex bullet-wrap ">
-          <div class="hex-wrap waypoint" data-animation="flip-in-x">
-            <div class="hexagon">
-              <i class="mdi mdi-speedometer"></i>
-            </div>
-          </div>
-          <div class="waypoint" data-animation="fade-in">
-            <div class="label bold">Fast</div>
-            <div>Fast load times and lag free interaction, my highest priority.</div>
-          </div>
+        <div class="text">
+          Hello, I'm <span class="highlight">Ravi Valluri</span>.
+          <br>
+          I'm a full-stack web developer.
         </div>
 
-        <div class="flex bullet-wrap " >
-          <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".2s">
-            <div class="hexagon">
-              <i class="mdi mdi-cellphone-link"></i>
-            </div>
+        <div class="button page-link" dest="about">View my work <i class="mdi mdi-arrow-right"></i></div>
+
+        <nav class="flex">
+          <div class="link-wrap">
+            <div class="active page-link" dest="home">home</div>
+            <div class="page-link" dest="about">about</div>
+            <div class="page-link" dest="portfolio">projects</div>
+            <!-- <div class="page-link" dest="blog">blog</div> -->
+            <div class="page-link" dest="contact">contact</div>
+            <a class="resume page-link" href="/doc/Ravi_Valluri_Resume.docx" target="_blank">resume</a>
           </div>
-          <div class="waypoint" data-animation="fade-in" data-delay=".2s">
-            <div class="label bold">Responsive</div>
-            <div>My layouts will work on any device, big or small.</div>
-          </div>
-        </div>
-        </div>
-        <div class="flex row-gt-sm">
-          <div class="flex bullet-wrap " >
-            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".4s">
-              <div class="hexagon">
-                <i class="mdi mdi-lightbulb-outline"></i>
+          <i class="mdi mdi-menu"></i>
+        </nav>
+      </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container flex">
+
+        <div class="header waypoint" data-animation="slide-in-left">ABOUT</div>
+        <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+
+        <div class="flex row label-wrap">
+          <div class="flex row-gt-sm">
+            <div class="flex bullet-wrap ">
+              <div class="hex-wrap waypoint" data-animation="flip-in-x">
+                <div class="hexagon">
+                  <i class="mdi mdi-speedometer"></i>
+                </div>
+              </div>
+              <div class="waypoint" data-animation="fade-in">
+                <div class="label bold">Fast</div>
+                <div>Fast load times and lag free interaction, my highest priority.</div>
               </div>
             </div>
-            <div class="waypoint" data-animation="fade-in" data-delay=".4s">
-              <div class="label bold">Intuitive</div>
-              <div>Strong preference for easy to use, intuitive UX/UI.</div>
-            </div>
-          </div>
 
-          <div class="flex bullet-wrap " >
-            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".6s">
-              <div class="hexagon">
-                <i class="mdi mdi-rocket"></i>
+            <div class="flex bullet-wrap ">
+              <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".2s">
+                <div class="hexagon">
+                  <i class="mdi mdi-cellphone-link"></i>
+                </div>
+              </div>
+              <div class="waypoint" data-animation="fade-in" data-delay=".2s">
+                <div class="label bold">Responsive</div>
+                <div>My layouts will work on any device, big or small.</div>
               </div>
             </div>
-            <div class="waypoint" data-animation="fade-in" data-delay=".6s">
-              <div class="label bold">Dynamic</div>
-              <div>Websites don't have to be static, I love making pages come to life.</div>
+          </div>
+          <div class="flex row-gt-sm">
+            <div class="flex bullet-wrap ">
+              <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".4s">
+                <div class="hexagon">
+                  <i class="mdi mdi-lightbulb-outline"></i>
+                </div>
+              </div>
+              <div class="waypoint" data-animation="fade-in" data-delay=".4s">
+                <div class="label bold">Intuitive</div>
+                <div>Strong preference for easy to use, intuitive UX/UI.</div>
+              </div>
+            </div>
+
+            <div class="flex bullet-wrap ">
+              <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".6s">
+                <div class="hexagon">
+                  <i class="mdi mdi-rocket"></i>
+                </div>
+              </div>
+              <div class="waypoint" data-animation="fade-in" data-delay=".6s">
+                <div class="label bold">Dynamic</div>
+                <div>Websites don't have to be static, I love making pages come to life.</div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="skills-wrapper flex row-gt-sm">
-        <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
-          <img src="img/me.jpg" class="me">
-          <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
-          <div class="label bold">Who's this guy?</div>
-          <div>
-            I'm a Freelancing Full Stack Developer <!-- <a class="highlight" href="https://www.beamsuntory.com/" target="_blank">Beam Suntory</a> --> living in Chicago, IL.
-            <br>
-            I have serious passion for UI development, and creating intuitive and dynamic user experiences. Want to know more about my work?
-            <br>
-            <span class="page-link highlight" dest="contact">Let's get in touch.</span>
+        <div class="skills-wrapper flex row-gt-sm">
+          <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
+            <img src="img/me.jpg" class="me">
+            <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
+            <div class="label bold">Who's this guy?</div>
+            <div>
+              I'm a Full Stack Web Developer
+              <!-- <a class="highlight" href="https://www.beamsuntory.com/" target="_blank">Beam Suntory</a> --> living
+              in Chicago, IL.
+              <br>
+              I have serious passion for UI development, and creating intuitive and dynamic user experiences. Want to
+              know more about my work?
+              <br>
+              <span class="page-link highlight" dest="contact">Let's get in touch.</span>
+            </div>
+          </div>
+
+          <div class="flex flex-50-gt-sm waypoint bars-wrap" data-animation="slide-in-right">
+            <div class="bar flex">
+              <div class="bar fill" style="width:85%">
+                <div class="tag bold flex">HTML/CSS/JavaScript/jQuery</div>
+              </div>
+              <span>90%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:85%">
+                <div class="tag bold flex">Node.js/Python</div>
+              </div>
+              <span>90%</span>
+            </div>
+
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:75%">
+                <div class="tag bold flex">React/Angular/Vue/Backbone</div>
+              </div>
+              <span>80%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:75%">
+                <div class="tag bold flex">MySQL/PostgreSQL/MongoDB</div>
+              </div>
+              <span>80%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:65%">
+                <div class="tag bold flex">Vagrant/Docker</div>
+              </div>
+              <span>70%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:55%">
+                <div class="tag bold flex">AWS/Heroku/Azure</div>
+              </div>
+              <span>60%</span>
+            </div>
+
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:85%">
+                <div class="tag bold flex">Bootstrap/Foundation</div>
+              </div>
+              <span>90%</span>
+            </div>
+
+
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:65%">
+                <div class="tag bold flex">Grunt/Gulp</div>
+              </div>
+              <span>70%</span>
+            </div>
+
+            <div class="bar flex">
+              <div class="bar fill" style="width:65%">
+                <div class="tag bold flex">Webpack/Browserify</div>
+              </div>
+              <span>70%</span>
+            </div>
+
           </div>
         </div>
-
-        <div class="flex flex-50-gt-sm waypoint bars-wrap"  data-animation="slide-in-right">
-          <div class="bar flex">
-            <div class="bar fill" style="width:85%">
-              <div class="tag bold flex">HTML/CSS/JavaScript/jQuery</div>
-            </div>
-            <span>90%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:85%">
-              <div class="tag bold flex">Node.js/PHP/Java</div>
-            </div>
-            <span>90%</span>
-          </div>
-
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:75%">
-              <div class="tag bold flex">React/Angular/Vue/Backbone</div>
-            </div>
-            <span>80%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:75%">
-              <div class="tag bold flex">MySQL/MongoDB</div>
-            </div>
-            <span>80%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:65%">
-              <div class="tag bold flex">Vagrant/Docker</div>
-            </div>
-            <span>70%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:55%">
-              <div class="tag bold flex">AWS/Heroku/Azure</div>
-            </div>
-            <span>60%</span>
-          </div>
-
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:85%">
-              <div class="tag bold flex">Bootstrap/Foundation</div>
-            </div>
-            <span>90%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:45%">
-              <div class="tag bold flex">UI Design</div>
-            </div>
-            <span>50%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:65%">
-              <div class="tag bold flex">Grunt/Gulp</div>
-            </div>
-            <span>70%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:65%">
-              <div class="tag bold flex">Webpack/Browserify</div>
-            </div>
-            <span>70%</span>
-          </div>
-
-        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-<!-- PROJECTS -->
-  <section class="flex" id="portfolio">
+    <!-- PROJECTS -->
+    <section class="flex" id="portfolio">
 
-    <div class="header waypoint" data-animation="slide-in-right">PROJECTS</div>
-    <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".3s"></div>
+      <div class="header waypoint" data-animation="slide-in-right">PROJECTS</div>
+      <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".3s"></div>
 
-    <div class="filter-wrap waypoint" data-animation="fade-in">
-      <div class="flex row">
-        <div class="filter" data-filter="all">ALL</div>
-        <div class="filter" data-filter=".node">NODE.JS</div>
-        <div class="filter" data-filter=".java">JAVA</div>
-        <div class="filter" data-filter=".js">JAVASCRIPT</div>
-      </div>
-      <div class="float-bar">
+      <div class="filter-wrap waypoint" data-animation="fade-in">
         <div class="flex row">
           <div class="filter" data-filter="all">ALL</div>
           <div class="filter" data-filter=".node">NODE.JS</div>
-          <div class="filter" data-filter=".java">JAVA</div>
+          <div class="filter" data-filter=".python">PYTHON</div>
           <div class="filter" data-filter=".js">JAVASCRIPT</div>
         </div>
-      </div>
-    </div>
-
-    <div id="gallery" class="container flex row wrap waypoint">
-      <div class="mix js node" data-my-order="1">
-        <div>
-          <div class="card"></div>
-          <div class="text">
-            <div class="bold">Beam Suntory</div>
-            <span class="highlight">Pure HTML/CSS/JavaScript</span>
+        <div class="float-bar">
+          <div class="flex row">
+            <div class="filter" data-filter="all">ALL</div>
+            <div class="filter" data-filter=".node">NODE.JS</div>
+            <div class="filter" data-filter=".python">PYTHON</div>
+            <div class="filter" data-filter=".js">JAVASCRIPT</div>
           </div>
-          <div class="button" id="beam">LEARN MORE</div>
         </div>
       </div>
 
-      <div class="mix js" data-my-order="1">
-        <div>
-          <div class="card"></div>
-          <div class="text">
-            <div class="bold">W.W.Grainger</div>
-            <span class="highlight">AngularJS + Bootstrap</span>
+      <div id="gallery" class="container flex row wrap waypoint">
+        <div class="mix js python" data-my-order="1">
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">Beam Suntory</div>
+              <span class="highlight">ReactJS + Python</span>
+            </div>
+            <div class="button" id="beam">LEARN MORE</div>
           </div>
-          <div class="button" id="grainger">LEARN MORE</div>
+        </div>
+
+        <div class="mix js python" data-my-order="1">
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">W.W.Grainger</div>
+              <span class="highlight">AngularJS + Python</span>
+            </div>
+            <div class="button" id="grainger">LEARN MORE</div>
+          </div>
+        </div>
+
+        <div class="mix node js" data-my-order="1">
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">AIG</div>
+              <span class="highlight">NodeJS + ReactJS</span>
+            </div>
+            <div class="button" id="aig">LEARN MORE</div>
+          </div>
+        </div>
+
+        <div class="mix js node" data-my-order="1">
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">BMS (BRISTOL- MYERS SQUIBB) </div>
+              <span class="highlight">Pure JavaScript + NodeJS</span>
+            </div>
+            <div class="button" id="bms">LEARN MORE</div>
+          </div>
+        </div>
+
+
+
+        <div class="mix js" data-my-order="1">
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">WELLSFARGO</div>
+              <span class="highlight">Pure JavaScript + HTML/CSS</span>
+            </div>
+            <div class="button" id="wells">LEARN MORE</div>
+          </div>
         </div>
       </div>
+    </section>
 
-      <div class="mix node" data-my-order="1">
-        <div>
-          <div class="card"></div>
-          <div class="text">
-            <div class="bold">AIG</div>
-            <span class="highlight">Node + ReactJS</span>
-          </div>
-          <div class="button" id="aig">LEARN MORE</div>
-        </div>
-      </div>
-
-      <div class="mix js" data-my-order="1">
-        <div>
-          <div class="card"></div>
-          <div class="text">
-            <div class="bold">BMS (BRISTOL- MYERS SQUIBB) </div>
-            <span class="highlight">Pure JavaScript</span>
-          </div>
-          <div class="button" id="bms">LEARN MORE</div>
-        </div>
-      </div>
-
-      <div class="mix java" data-my-order="1">
-        <div>
-          <div class="card"></div>
-          <div class="text">
-            <div class="bold">TIAA-CREF</div>
-            <span class="highlight">Java + MVC</span>
-          </div>
-          <div class="button" id="tiaa">LEARN MORE</div>
-        </div>
-      </div>
-
-
-      <div class="mix java" data-my-order="1">
-        <div>
-          <div class="card"></div>
-          <div class="text">
-            <div class="bold">WELLSFARGO</div>
-            <span class="highlight">J2EE Design Patterns</span>
-          </div>
-          <div class="button" id="wells">LEARN MORE</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-<!-- BLOG -->
- <!-- <section id="blog">
+    <!-- BLOG -->
+    <!-- <section id="blog">
     <div class="container flex">
 
       <div class="header waypoint" data-animation="slide-in-left">BLOG</div>
@@ -396,88 +389,87 @@
     </div>
   </section> -->
 
-  <!-- CONTACT -->
-  <section id="contact">
-  <!--  <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+    <!-- CONTACT -->
+    <section id="contact">
+      <!--  <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
       <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
     </svg> -->
-    <div class="container flex">
-      <div class="header waypoint" data-animation="slide-in-left">CONTACT</div>
-      <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".25s"></div>
-      <div class="highlight waypoint" data-animation="slide-in-right" data-delay=".5s">Have a question or want to work together?</div>
-      <form class="waypoint" data-animation="pop-in" data-delay=".5s" id="contact-form">
-        <input placeholder="Name" type="text" name="name" required>
-        <input placeholder="Enter email" type="email" name="email" required>
-        <textarea placeholder="Your Message" type="text" name="message"></textarea>
-        <div id="success">
-          <div>Your message was sent successfully. Thanks!<span id="close" class="mdi mdi-close"></span></div>
-        </div>
-        <input class="button" type="submit" id="submit" value="Submit">
-      </form>
-    </div>
-  </section>
+      <div class="container flex">
+        <div class="header waypoint" data-animation="slide-in-left">CONTACT</div>
+        <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".25s"></div>
+        <div class="highlight waypoint" data-animation="slide-in-right" data-delay=".5s">Have a question or want to
+          work together?</div>
+        <form class="waypoint" data-animation="pop-in" data-delay=".5s" id="contact-form">
+          <input placeholder="Name" type="text" name="name" required>
+          <input placeholder="Enter email" type="email" name="email" required>
+          <textarea placeholder="Your Message" type="text" name="message"></textarea>
+          <div id="success">
+            <div>Your message was sent successfully. Thanks!<span id="close" class="mdi mdi-close"></span></div>
+          </div>
+          <input class="button" type="submit" id="submit" value="Submit">
+        </form>
+      </div>
+    </section>
 
-  <footer>
-    <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
+    <footer>
+      <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
 
-    <div class="icon-wrap flex row">
-      <a href="https://www.linkedin.com/in/ravivalluri/">
-        <div class="flex icon" id="icon-2">
-          <i class="mdi mdi-linkedin"></i>
-        </div>
-      </a>
-      <a href="https://github.com/ravivalluri">
-        <div class="flex icon" id="icon-3">
-          <i class="mdi mdi-github-circle"></i>
-        </div>
-      </a>
-      <a href="https://meta.stackoverflow.com/users/7619340/ravi">
-        <div class="flex icon" id="icon-4">
-          <i class="mdi mdi-stackoverflow"></i>
-        </div>
-      </a>
-      <a href="https://codepen.io/ravivalluri/">
-        <div class="flex icon" id="icon-5">
-          <i class="mdi mdi-codepen"></i>
-        </div>
-      </a>
-    </div>
-    <div class="info-box">
-      <div class="footnote">RAVI VALLURI <span class="highlight">&copy;2017</span></div>
-    </div>
-  </footer>
+      <div class="icon-wrap flex row">
+        <a href="https://www.linkedin.com/in/ravivalluri/">
+          <div class="flex icon" id="icon-2">
+            <i class="mdi mdi-linkedin"></i>
+          </div>
+        </a>
+        <a href="https://github.com/ravivalluri">
+          <div class="flex icon" id="icon-3">
+            <i class="mdi mdi-github-circle"></i>
+          </div>
+        </a>
+        <a href="https://meta.stackoverflow.com/users/7619340/ravi">
+          <div class="flex icon" id="icon-4">
+            <i class="mdi mdi-stackoverflow"></i>
+          </div>
+        </a>
+        <a href="https://codepen.io/ravivalluri/">
+          <div class="flex icon" id="icon-5">
+            <i class="mdi mdi-codepen"></i>
+          </div>
+        </a>
+      </div>
+      <div class="info-box">
+        <div class="footnote">RAVI VALLURI <span class="highlight">&copy;2017</span></div>
+      </div>
+    </footer>
 
-</div>
+  </div>
 
-<div id="preload">
-   <img src="img/me.jpg"/>
-   <img src="img/beam-thumb.jpg"/>
-   <img src="img/grainger-thumb.jpg"/>
-   <img src="img/aig-thumb.jpeg"/>
-   <img src="img/bms-thumb.jpg"/>
-   <img src="img/tiaa-thumb.jpg"/>
-   <img src="img/-wells-thumb.jpg"/>
-   <img src="img/beam-0.jpg"/>
-   <img src="img/beam-1.jpg"/>
-   <img src="img/beam-2.jpg"/>
-   <img src="img/grainger-0.jpg"/>
-   <img src="img/grainger-1.jpg"/>
-   <img src="img/grainger-2.jpg"/>
-   <img src="img/aig-0.jpg"/>
-   <img src="img/aig-1.jpg"/>
-   <img src="img/aig-2.jpg"/>
-   <img src="img/bms-0.jpg"/>
-   <img src="img/bms-1.jpg"/>
-   <img src="img/bms-2.jpg"/>
-   <img src="img/tiaa-0.jpg"/>
-   <img src="img/tiaa-1.jpg"/>
-   <img src="img/tiaa-2.jpg"/>
-   <img src="img/wells-0.jpg"/>
-   <img src="img/wells-1.jpg"/>
-   <img src="img/wells-2.jpg"/>
-</div>
+  <div id="preload">
+    <img src="img/me.jpg" />
+    <img src="img/beam-thumb.jpg" />
+    <img src="img/grainger-thumb.jpg" />
+    <img src="img/aig-thumb.jpeg" />
+    <img src="img/bms-thumb.jpg" />
+    <img src="img/tiaa-thumb.jpg" />
+    <img src="img/-wells-thumb.jpg" />
+    <img src="img/beam-0.jpg" />
+    <img src="img/beam-1.jpg" />
+    <img src="img/beam-2.jpg" />
+    <img src="img/grainger-0.jpg" />
+    <img src="img/grainger-1.jpg" />
+    <img src="img/grainger-2.jpg" />
+    <img src="img/aig-0.jpg" />
+    <img src="img/aig-1.jpg" />
+    <img src="img/aig-2.jpg" />
+    <img src="img/bms-0.jpg" />
+    <img src="img/bms-1.jpg" />
+    <img src="img/bms-2.jpg" />
+    <img src="img/wells-0.jpg" />
+    <img src="img/wells-1.jpg" />
+    <img src="img/wells-2.jpg" />
+  </div>
 
 </body>
+
 </html>
 
 <script src="scripts/solar.js"></script>
