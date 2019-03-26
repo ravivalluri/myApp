@@ -1,3 +1,3 @@
-www.codebyravi.me
+www.codebyravi.com
 
 npm run start
