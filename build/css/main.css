@@ -945,13 +945,20 @@ section:nth-of-type(3) #gallery .mix {
 }
 
 section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
-  background: url(/img/msi-thumb.jpg);
+  background: url(/img/bcbs-thumb.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 90%;
 }
 
 section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
+  background: url(/img/msi-thumb.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 90%;
+}
+
+section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
   background: url(/img/beam-thumb.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -1028,28 +1035,28 @@ section:nth-of-type(3) #gallery .button {
   color: #1b242f;
 }
 
-section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
+section:nth-of-type(3) #gallery .mix:nth-child(4) .card {
   background: url(/img/grainger-thumb.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 90%;
 }
 
-section:nth-of-type(3) #gallery .mix:nth-child(4) .card {
+section:nth-of-type(3) #gallery .mix:nth-child(5) .card {
   background: url(/img/aig-thumb.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 80%;
 }
 
-section:nth-of-type(3) #gallery .mix:nth-child(5) .card {
+section:nth-of-type(3) #gallery .mix:nth-child(6) .card {
   background: url(/img/bms-thumb.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 90%;
 }
 
-section:nth-of-type(3) #gallery .mix:nth-child(6) .card {
+section:nth-of-type(3) #gallery .mix:nth-child(7) .card {
   background: url(/img/wells-thumb.jpg);
   background-repeat: no-repeat;
   background-position: center center;

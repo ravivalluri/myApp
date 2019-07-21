@@ -2,6 +2,12 @@ $(document).ready(function () {
 
   // MODAL
   var modalText = {
+    bcbs: {
+      title: 'Blue Cross Blue Shield',
+      tag: 'Full Stack Developer',
+      detail: 'Developed an internal claims application from scratch using Angular/Bootstrap and Node.js. Developed framework for assessing various controls on qualitative and quantitative dimensional data with complex calculations and rolled up aggregations on various hierarchy levels.',
+      link: 'https://www.bcbsil.com/'
+    },
     msi: {
       title: 'Motorola Solutions',
       tag: 'Full Stack Developer',
